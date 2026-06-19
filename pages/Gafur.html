@@ -1,12 +1,270 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
+   
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVOS Header</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body>
-    
+<body class="bg-gray-50">
+
+  <header class="bg-white border-b border-gray-100 sticky top-0 z-50 px-4 py-4 md:px-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      
+      <div class="flex items-center gap-6 xl:gap-8">
+        <a href="#" class="bg-[#007A53] text-white font-bold text-xl md:text-2xl px-5 py-2 rounded border border-black shadow-sm tracking-wide flex items-center justify-center shrink-0">
+          EVOS
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-5 xl:gap-6 text-sm xl:text-base font-semibold text-black whitespace-nowrap">
+          <div class="relative group cursor-pointer flex items-center gap-1 hover:text-[#007A53] transition">
+            <span>Biz haqimizda</span>
+            <i class="fa-solid fa-chevron-down text-xs mt-0.5 text-black group-hover:text-[#007A53]"></i>
+          </div>
+          <a href="#" class="hover:text-[#007A53] transition">Filiallar</a>
+          <a href="#" class="hover:text-[#007A53] transition">Vakantlar</a>
+          <a href="#" class="hover:text-[#007A53] transition">Table Service</a>
+          
+          <div class="bg-[#008ED6] text-white font-black px-3 py-1 rounded-full text-sm tracking-wide transform -rotate-3 shadow-sm select-none cursor-pointer hover:scale-105 transition">
+            kids
+          </div>
+        </nav>
+      </div>
+
+      <div class="flex items-center gap-2 md:gap-3 shrink-0">
+        
+        <button class="bg-[#F3F4F6] hover:bg-gray-200 text-black font-semibold text-sm py-2.5 px-3 md:px-4 rounded-xl flex items-center gap-2 transition">
+          <i class="fa-solid fa-location-dot text-base text-black"></i>
+          <span class="hidden sm:inline max-w-[120px] truncate">Manzilingizn...</span>
+          <i class="fa-solid fa-chevron-down text-[10px] mt-0.5 text-gray-500"></i>
+        </button>
+
+        <button class="bg-[#F3F4F6] hover:bg-gray-200 text-black font-semibold text-sm py-2.5 px-3 md:px-4 rounded-xl flex items-center gap-2 transition">
+          <i class="fa-solid fa-bag-shopping text-base text-zinc-700"></i>
+          <span class="hidden xs:inline">Savat</span>
+        </button>
+
+        <button class="bg-[#F3F4F6] hover:bg-gray-200 text-black font-semibold text-sm py-2.5 px-2 md:px-3 rounded-xl flex items-center gap-1.5 transition">
+          <div class="w-5 h-5 rounded-full overflow-hidden flex flex-col border border-gray-300 shrink-0">
+            <div class="bg-[#0099B5] h-1/3 w-full"></div>
+            <div class="bg-white h-1/3 w-full border-y-[1px] border-red-500"></div>
+            <div class="bg-[#1EB53A] h-1/3 w-full"></div>
+          </div>
+          <i class="fa-solid fa-chevron-down text-[10px] text-gray-500"></i>
+        </button>
+
+        <button class="bg-[#F3F4F6] hover:bg-gray-200 text-black py-2.5 px-3.5 rounded-xl transition flex items-center justify-center">
+          <i class="fa-regular fa-user text-base font-bold"></i>
+        </button>
+
+        <button class="lg:hidden bg-[#007A53] text-white p-2.5 rounded-xl transition ml-1">
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+      <h1 class="text-3xl font-bold text-black tracking-tight">Filiallar</h1>
+      
+      <div class="flex items-center gap-2 bg-gray-100 p-1 rounded-lg">
+        <button class="bg-[#007A53] text-white font-medium px-5 py-2 rounded-md shadow-sm transition hover:bg-[#006342]">
+          Ro'yxat
+        </button>
+        <button class="bg-white text-black font-medium px-5 py-2 rounded-md border border-gray-200 transition hover:bg-gray-50">
+          Xarita
+        </button>
+      </div>
+    </div>
+
+    <div class="space-y-4">
+
+      <div class="flex items-center justify-between bg-white p-4 md:p-5 rounded-xl shadow-sm hover:shadow-md transition cursor-pointer border border-gray-100">
+        <div class="flex items-center gap-4">
+          <div class="w-16 h-12 md:w-20 md:h-14 bg-[#007A53] rounded flex flex-col items-center justify-center text-white text-xs font-bold px-1 text-center leading-none">
+            <span class="text-sm tracking-wider">EVOS®</span>
+            <span class="text-[9px] mt-1 font-light opacity-80 uppercase tracking-tighter">Yunusobod</span>
+          </div>
+          <span class="text-lg md:text-xl font-semibold text-black">001-Yunusobod</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <div class="text-right">
+            <p class="text-xs md:text-sm text-gray-400 font-medium">Ish vaqti</p>
+            <p class="text-sm md:text-base text-slate-600 font-semibold tracking-wide mt-0.5">08:00 - 03:00</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between bg-white p-4 md:p-5 rounded-xl shadow-sm hover:shadow-md transition cursor-pointer border border-gray-100">
+        <div class="flex items-center gap-4">
+          <div class="w-16 h-12 md:w-20 md:h-14 bg-[#007A53] rounded flex flex-col items-center justify-center text-white text-xs font-bold px-1 text-center leading-none">
+            <span class="text-sm tracking-wider">EVOS®</span>
+            <span class="text-[8px] mt-1 font-light opacity-80 uppercase tracking-tighter">Parkent bozori</span>
+          </div>
+          <span class="text-lg md:text-xl font-semibold text-black">002-Parkent bozori</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <div class="text-right">
+            <p class="text-xs md:text-sm text-gray-400 font-medium">Ish vaqti</p>
+            <p class="text-sm md:text-base text-slate-600 font-semibold tracking-wide mt-0.5">08:00 - 03:00</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between bg-white p-4 md:p-5 rounded-xl shadow-sm hover:shadow-md transition cursor-pointer border border-gray-100">
+        <div class="flex items-center gap-4">
+          <div class="w-16 h-12 md:w-20 md:h-14 bg-[#007A53] rounded flex flex-col items-center justify-center text-white text-xs font-bold px-1 text-center leading-none">
+            <span class="text-sm tracking-wider">EVOS®</span>
+            <span class="text-[9px] mt-1 font-light opacity-80 uppercase tracking-tighter">Sofiyskiy</span>
+          </div>
+          <span class="text-lg md:text-xl font-semibold text-black">003-Sofiyskiy</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <div class="text-right">
+            <p class="text-xs md:text-sm text-gray-400 font-medium">Ish vaqti</p>
+            <p class="text-sm md:text-base text-slate-600 font-semibold tracking-wide mt-0.5">08:00 - 03:00</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between bg-white p-4 md:p-5 rounded-xl shadow-sm hover:shadow-md transition cursor-pointer border border-gray-100">
+        <div class="flex items-center gap-4">
+          <div class="w-16 h-12 md:w-20 md:h-14 bg-[#007A53] rounded flex flex-col items-center justify-center text-white text-xs font-bold px-1 text-center leading-none">
+            <span class="text-sm tracking-wider">EVOS®</span>
+            <span class="text-[9px] mt-1 font-light opacity-80 uppercase tracking-tighter">Chilonzor</span>
+          </div>
+          <span class="text-lg md:text-xl font-semibold text-black">004-Chilonzor</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <div class="text-right">
+            <p class="text-xs md:text-sm text-gray-400 font-medium">Ish vaqti</p>
+            <p class="text-sm md:text-base text-slate-600 font-semibold tracking-wide mt-0.5">08:00 - 03:00</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between bg-white p-4 md:p-5 rounded-xl shadow-sm hover:shadow-md transition cursor-pointer border border-gray-100">
+        <div class="flex items-center gap-4">
+          <div class="w-16 h-12 md:w-20 md:h-14 bg-[#007A53] rounded flex flex-col items-center justify-center text-white text-xs font-bold px-1 text-center leading-none">
+            <span class="text-sm tracking-wider">EVOS®</span>
+            <span class="text-[9px] mt-1 font-light opacity-80 uppercase tracking-tighter">Algoritm</span>
+          </div>
+          <span class="text-lg md:text-xl font-semibold text-black">005-Algoritm</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <div class="text-right">
+            <p class="text-xs md:text-sm text-gray-400 font-medium">Ish vaqti</p>
+            <p class="text-sm md:text-base text-slate-600 font-semibold tracking-wide mt-0.5">08:00 - 03:00</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<footer class="bg-[#EEF2F6] text-black pt-12 pb-8 px-4 md:px-8 border-t border-gray-200">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start pb-10">
+        
+        <div class="lg:col-span-5 grid grid-cols-2 sm:grid-cols-3 gap-y-4 gap-x-6 text-base font-medium">
+          <a href="#" class="hover:text-[#007A53] transition">Asosiy</a>
+          <a href="#" class="hover:text-[#007A53] transition">Filiallar</a>
+          <a href="#" class="hover:text-[#007A53] transition">Vakantlar</a>
+          <a href="#" class="hover:text-[#007A53] transition">Table Service</a>
+          <a href="#" class="hover:text-[#007A53] transition">Yangiliklar</a>
+          <a href="#" class="hover:text-[#007A53] transition">Biz haqimizda</a>
+          <a href="#" class="hover:text-[#007A53] transition">Kontaktlar</a>
+        </div>
+
+        <div class="lg:col-span-3 flex flex-col sm:flex-row items-start sm:items-center lg:justify-center gap-3">
+          <div class="flex flex-col gap-2">
+            <div class="bg-[#008ED6] text-white font-black px-4 py-1.5 rounded-full text-center text-sm tracking-wide transform -rotate-2 shadow-sm">
+              kids
+            </div>
+            <a href="#" class="bg-white text-[#008ED6] text-xs font-semibold px-4 py-2 rounded-full shadow-sm hover:bg-gray-50 text-center whitespace-nowrap border border-blue-50">
+              Akvagrim
+            </a>
+          </div>
+          
+          <div class="flex flex-col gap-2">
+            <a href="#" class="bg-white text-[#008ED6] text-xs font-semibold px-4 py-2 rounded-full shadow-sm hover:bg-gray-50 text-center whitespace-nowrap border border-blue-50">
+              Bolalar maydonchalari
+            </a>
+            <a href="#" class="bg-white text-[#008ED6] text-xs font-semibold px-4 py-2 rounded-full shadow-sm hover:bg-gray-50 text-center whitespace-nowrap border border-blue-50">
+              EVOS Bayramlar
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-4 flex flex-wrap gap-3 lg:justify-end">
+          <a href="#" class="bg-black text-white flex items-center gap-3 px-4 py-2 rounded-lg hover:opacity-90 transition w-44 border border-zinc-800 shadow-md">
+            <i class="fa-brands fa-apple text-3xl"></i>
+            <div class="leading-tight">
+              <p class="text-[10px] uppercase tracking-wider text-gray-400">Download on the</p>
+              <p class="text-base font-semibold font-sans">App Store</p>
+            </div>
+          </a>
+          <a href="#" class="bg-black text-white flex items-center gap-3 px-4 py-2 rounded-lg hover:opacity-90 transition w-44 border border-zinc-800 shadow-md">
+            <i class="fa-brands fa-google-play text-2xl text-white"></i>
+            <div class="leading-tight">
+              <p class="text-[9px] uppercase tracking-wider text-gray-400">GET IT ON</p>
+              <p class="text-base font-semibold font-sans">Google Play</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="border-t border-gray-300 opacity-60 my-4"></div>
+
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 pt-4 text-sm text-gray-600">
+        
+        <div class="flex flex-col gap-1.5">
+          <p class="font-medium text-black">© Evos 2006 - 2026 All rights reserved</p>
+          <div class="flex gap-4 text-xs font-medium text-[#007A53]">
+            <a href="#" class="hover:underline">Ommaviy oferta</a>
+            <a href="#" class="hover:underline">Sodiqlik dasturi</a>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <a href="#" class="w-9 h-9 rounded-full bg-[#007A53] text-white flex items-center justify-center hover:opacity-90 transition shadow-sm">
+            <i class="fa-brands fa-instagram text-lg"></i>
+          </a>
+          <a href="#" class="w-9 h-9 rounded-full bg-[#007A53] text-white flex items-center justify-center hover:opacity-90 transition shadow-sm">
+            <i class="fa-brands fa-facebook-f text-base"></i>
+          </a>
+          <a href="#" class="w-9 h-9 rounded-full bg-[#007A53] text-white flex items-center justify-center hover:opacity-90 transition shadow-sm">
+            <i class="fa-brands fa-telegram text-base mr-0.5"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
 </body>
 </html>
